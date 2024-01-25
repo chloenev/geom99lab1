@@ -9,14 +9,21 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJ_8ztAq32K4gRF44mljnynd0&destination=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM&departure_time=1706290200&mode=transit&transit_routing_preference=fewer_transfers&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
 
 ## Optional URLs
+In my first year of undergrad at UW I didn't have a car, but was felt homesick often so the best way was to take transit to the GO station in Burlington where my parents would pick me up. 
 
-Read the Rubric to find out about what options exist to earn more marks. Here is where you can provide these additional links to place ids or other items telling a story about your chosen directions API
+### Origin & destination 
+The University of Waterloo, Waterloo, ON: https://www.google.com/maps/place/?q=place_id:ChIJ_8ztAq32K4gRF44mljnynd0
+Burlington GO Station, Burlington, ON: https://www.google.com/maps/place/?q=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM
+
+### Origin & destination JSON return
+University of Waterloo: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ_8ztAq32K4gRF44mljnynd0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJaV_Nz-BhK4gRpYcpDyiCfyM&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
 
 ### Simple option:
 
