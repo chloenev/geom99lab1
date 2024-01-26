@@ -15,7 +15,7 @@ First step is to deploy the template into your own account.
 3. Make the repository Public. 
 4. Click Create Repository from Template to start the migration. Once complete, it will open to the ReadMe.md in the root of the repository under your account. You now have a "copy" of all files and can modify, edit and use these files to learn. 
 
-### You must enable GitHub pages to view HTML documents at the url `[username].github.io/geom99lab1/`. 
+### You must enable GitHub pages to view HTML documents at the url `chloenev.github.io/geom99lab1/`. 
 
 6. Click the `Settings` icon, near the top-right side of the GitHub window
 7. Scroll to the bottom and look for `Pages` entry in the left selection, click it. 
@@ -28,13 +28,28 @@ Now your repository will be accessible under GitHub Pages (an HTML Web Server) a
 
 In this repository you will need to create content in this repository from the following activities:
 
-- [ ] Google MyMaps Sharkspotters tutorial. 
-- [ ] Maps - Simple HTML Map Example
-- [ ] Routes - Directions API - URL request JSON response
-- [ ] Modify Dynamic Map Clustering example to show Ontario Parks
+- [x] Google MyMaps Sharkspotters tutorial.
+https://chloenev.github.io/geom99lab1/mymaps/sharkspotters.html
+
+- [x] Maps - Simple HTML Map Example
+https://chloenev.github.io/geom99lab1/services/simplemap.html
+
+- [x] Routes - Directions API - URL request JSON response
+In my first year of undergrad at UW I didn't have a car, but was felt homesick often so the best way was to take transit to the GO station in Burlington where my parents would pick me up. 
+
+### Origin & destination 
+The University of Waterloo, Waterloo, ON: https://www.google.com/maps/place/?q=place_id:ChIJ_8ztAq32K4gRF44mljnynd0
+Burlington GO Station, Burlington, ON: https://www.google.com/maps/place/?q=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM
+
+### Origin & destination JSON return
+University of Waterloo: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ_8ztAq32K4gRF44mljnynd0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJaV_Nz-BhK4gRpYcpDyiCfyM&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
+
+- [x] Modify Dynamic Map Clustering example to show Ontario Parks
+https://chloenev.github.io/geom99lab1/clustering/ontarioparks.html
+
 - [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
 
-> Optional Tip: You can check the above boxes by editing this MarkDown document and adding an `x` between the `[ ]`, like this: `[x]`
 
 ## Due date
 
