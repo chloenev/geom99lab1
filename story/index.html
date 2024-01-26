@@ -103,6 +103,13 @@ function initMap() {
         });
     });
     
+	/*
+    // Add a marker clusterer to manage the markers.
+    new MarkerClusterer(map, markers, {
+        imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
+	*/
 	const pitstops = [
 		{ position: new google.maps.LatLng(43.9706, -79.2443)},
 		{ position: new google.maps.LatLng(46.5333, -84.3499)},
@@ -116,12 +123,13 @@ function initMap() {
 	pitstops.forEach((pitstops => {
 		new google.maps.Marker({
 			position: pitstops.position,
-			title: pitstops.title,
 			map: map,
 		});
 	}));
+}
+    
 
-	const locations = [
+    const locations = [
     { lat: 43.9706, lng: -79.2443},
     { lat: 46.5333, lng: -84.3499},
     { lat: 48.3822, lng: -89.2461},
@@ -130,18 +138,21 @@ function initMap() {
     { lat: 51.0884, lng: -115.3443},
     { lat: 49.2464, lng: -122.9945},
     ];
-}
+
 
 	
+
   </script>
 
 
 </head>
 <body>
 
+
 <div class="navbar">
 <label class="logo">Moving to BC: 3 Friends, 4300km</label>
 </div>
+
 
 <div>
 <h1>Map</h1>
