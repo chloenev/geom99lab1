@@ -6,6 +6,8 @@
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
   <style>
+/* CSS elements modified from GEOM101 Personal Website assignment */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,7 +24,7 @@ p {
     width: 100%;
 }
 
-/* -- MenuOption formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
+/* -- menu formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
 div.navbar {
 	padding: 0;
 	margin: 0;
@@ -85,7 +87,6 @@ h2 {
   </style>
 
 <script>
-   
 function initMap() {
     const map = new google.maps.Map(document.getElementById("mapID"), {
         zoom: 4,
@@ -102,11 +103,15 @@ function initMap() {
         });
     });
     
+	/*
     // Add a marker clusterer to manage the markers.
     new MarkerClusterer(map, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
+
+*/
+
 }
     
 
