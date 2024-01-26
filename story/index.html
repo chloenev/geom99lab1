@@ -3,6 +3,7 @@
 <head>
   <title>Google Story Maps</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
   <style>
 * {
@@ -92,7 +93,7 @@ h2 {
 <script>
    
 function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
+    const map = new google.maps.Map(document.getElementById("mapID"), {
         zoom: 12,
         center: {lat: 45.000, lng: -100.000},
     }
@@ -151,7 +152,6 @@ function initMap() {
 
 <div>
 <h1>Stops Along the Way</h1>
-<p>We decided to take it slow and make the cross-country trip last 6 days.</p>
 
 <!-- TableOption Begin -->
 <table id="missions">
@@ -172,13 +172,23 @@ function initMap() {
   </tr>
   <tr>
 	<td>3</td>
-	<td>Manitoba?</td>
-	<td>Scary</td>
+	<td>Thunder Bay → Winnipeg</td>
+	<td>Stood at the Longitudal Centre of Canada In Manitoba!</td>
   </tr>
   <tr>
 	<td>4</td>
-	<td>Canmore</td>
-	<td>Beautiful</td>
+	<td>Winnipeg → Swift Current</td>
+	<td>Not a whole lot to report on this stretch. Mainly just hot and flat. Did I mention the car had no AC?</td>
+  </tr>
+  <tr>
+	<td>5</td>
+	<td>Swift Current → Canmore</td>
+	<td>Of course we had to make a pit stop to see the Hoo Doos in Drumheller. Very cool!</td>
+  </tr>
+  <tr>
+	<td>6</td>
+	<td>Canmore → Our new home!</td>
+	<td>My favourite part of the drive - through the mountains.</td>
   </tr>
 </table>
 </div>
