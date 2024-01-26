@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shrek's Resume</title>
+  <!-- created my own favicon on https://www.favicon.cc/ -->
+  <link rel="icon" type="image/x-icon" href="/shrek.ico">
+
+  <style>
+
+* {
+	background-color: #C2B280; /* -- colour from https://htmlcolorcodes.com/colors/shades-of-brown/ --*/
+}
+
+body  {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Georgia;
+	color: #80461B;
+}
+
+p {
+	font-family: Georgia;
+	font-size: 16px;
+}
+
+/* -- MenuOption formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
+div.navbar {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	background: SaddleBrown;
+	height: 60px;
+	width: 100%;
+}
+
+label.logo {
+	color: YellowGreen; /*obvious colour choice to represent Shrek's skin! */
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 60px;
+	padding: 0 10px;
+	background: SaddleBrown;
+}
+
+div.navbar ul {
+	float: right;
+	margin-right: 15px;
+	background-color: SaddleBrown;
+}
+
+div.navbar ul li {
+	display: inline-block;
+	line-height: 30px;
+	margin: 0 5px;
+	background-color: SaddleBrown;
+}
+
+div.navbar ul list a {
+	font-size: 20px;
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+
+a.relative {
+	color: YellowGreen;
+	background-color: SaddleBrown;
+	font-weight: bold;
+}
+
+a.hover {
+	color: YellowGreen;
+	background-color: Red;
+}
+/* -- MenuOption formatting ends -- */
+
+/* -- TableOption formatting begins -- */
+#missions {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#missions td, #missions th {
+	border: 1px solid SaddleBrown;
+	padding: 10px;
+}
+
+#missions th {
+	background-color: YellowGreen;
+	opacity: 0.8;
+	color: SaddleBrown;
+}
+/* -- TableOption formatting ends -- */
+
+/* -- Headers formatting -- */
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: YellowGreen;
+	background-color: SaddleBrown;
+	padding-left: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	outline-style: solid;
+	outline-width: medium;
+	outline-color: DarkGreen;
+	width: 100px;
+	text-align: center;
+	color: SaddleBrown;
+	margin-left: 5px;
+}
+
+/* Front page list */	
+.list2 {
+  list-style-type: circle;
+} 
+
+/* LinksOption formatting begins */
+a.external {
+	color: ForestGreen;
+	font-weight: bold;
+}
+
+a.external:hover {
+	color: YellowGreen;
+	background-color: SaddleBrown;
+	font-size: 125%;
+}
+/* LinksOption formatting ends */
+
+/* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
+img {
+	float: left;
+	border: 5px solid Brown;
+	border-radius: 15px;
+	margin-right: 15px;
+}
+	
+
+
+    
+  </style>
+
+
+  
+</head>
+<body>
+
+<!-- MenuOption Begin -->
+<div class="navbar">
+<label class="logo">Shrek</label>
+<ul>
+	<li><a class = "relative" href="/index.html">Home</a></li>
+	<li><a class = "relative" href="/page2.html">About Me</a></li>
+</ul>
+</div>
+<!-- MenuOption End -->
+
+<div>
+<h1>Skills</h1>
+<ul>
+	<li>Extremely strong-willed and motivated</li>
+	<li>Can work alone (preferred) and in teams (when necessary) to get the job done</li>
+	<li>Excellent problem solver</li>
+	<li>Roar as loud and disgusting it has been known to scare away as many as 100 men</li>
+	<li>Fiercely protective</li>
+</ul>
+</div>
+
+<div>
+<h1>Missions</h1>
+<p>There are several adventures I've been on in my life that I am proud to say show the kind of ogre I am.</p>
+
+<!-- TableOption Begin -->
+<table id="missions">
+  <tr>
+	<th>Mission</th>
+	<th>Team</th>
+	<th>Outcome</th>
+  </tr>
+  <tr>
+	<td>Retrieve Princess Fiona from the highest room in the tallest tower</td>
+	<td>Myself, Donkey</td>
+	<td>First <strong>ever</strong> successful retrieval attempt (approximately 30 previous tries - proven by the 30 skeletons charred in the tower).</td>
+  </tr>
+  <tr>
+	<td>Get people out of my swamp!</td>
+	<td>Myself, Donkey</td>
+	<td>Not only did we get my swamp back, but also we were able to send the other mythical creatures back to their rightful land. Everyone was quite pleased... well, maybe not Farquaad - ha ha!</td>
+  </tr>
+  <tr>
+	<td>Save Princess Fiona and the people of Duloc from the dictator Lord Farquaad</td>
+	<td>Myself, Donkey, Dragon</td>
+	<td>With a wee bit of help from Dragon, we crashed the wedding and saved the princess and the people from Farquaad... Forever. <strong>*burp*</strong></td>
+  </tr>
+  <tr>
+	<td>Defeat Fairy Godmother and Prince Charming's attempt at a royal coup</td>
+	<td>Myself, Donkey, Puss in Boots, Big Bad Wolf, Pinoocchio, The Three Blind Mice, Gingy, Mongo</td>
+	<td>We worked together as a team to crash Prince Charming's big night where he attempted to trick Fiona into Fairy Godmother's trap.</td>
+  </tr>
+</table>
+<!-- TableOption End -->
+</div>
+
+<div>
+<h1>Education</h1>
+<h4>Duloc Elementary School (1990)</h4>
+<p>Very proud to share that I finished bottom of my eighth grade class with a 1.0 GPA. Who needs school when you're real life smart anyway.</p>
+<p>Some classes I did enjoy however were:</p>
+<ul>
+	<li>Gym</li>
+	<li>Art - where my famous earwax candles were born</li>
+	<li>Geography</li>
+</ul>
+</div>
+
+</body>
+</html>
