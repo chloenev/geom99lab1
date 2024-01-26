@@ -13,11 +13,13 @@ In my first year of undergrad at UW I didn't have a car, but I felt homesick oft
 Origin & destination (by PlaceIDs):
 
 The University of Waterloo, Waterloo, ON: https://www.google.com/maps/place/?q=place_id:ChIJ_8ztAq32K4gRF44mljnynd0
+
 Burlington GO Station, Burlington, ON: https://www.google.com/maps/place/?q=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM
 
 Origin & destination JSON return:
 
 University of Waterloo: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ_8ztAq32K4gRF44mljnynd0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+
 Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJaV_Nz-BhK4gRpYcpDyiCfyM&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
 
 ### Modify Dynamic Map Clustering example to show Ontario Parks
