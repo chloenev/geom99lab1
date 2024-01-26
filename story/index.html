@@ -110,7 +110,7 @@ function initMap() {
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 	*/
-	const locations1 = [
+	const pitstops = [
     { position: new google.maps.LatLng(43.9706, -79.2443), 
 	  title: "Maya's House"},
 
@@ -122,10 +122,12 @@ function initMap() {
     { lat: 49.2464, lng: -122.9945},
     ];
 	
-	new google.maps.Marker({
-		position: locations1.position,
-		map: map,
-	})
+	pitstops.forEach((pitstops => {
+		new google.maps.Marker({
+			position: pitstops.position,
+			map: map,
+		});
+	}));
 }
     
 
