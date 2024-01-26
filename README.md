@@ -1,5 +1,29 @@
 # Geom99 - Explore Google Maps 
 
+## Activities
+### Google MyMaps Sharkspotters tutorial
+https://chloenev.github.io/geom99lab1/mymaps/sharkspotters.html
+
+### Maps - Simple HTML Map Example
+https://chloenev.github.io/geom99lab1/services/simplemap.html
+
+### Routes - Directions API - URL request JSON response
+In my first year of undergrad at UW I didn't have a car, but was felt homesick often so the best way was to take transit to the GO station in Burlington where my parents would pick me up. 
+
+Origin & destination (by PlaceIDs) 
+The University of Waterloo, Waterloo, ON: https://www.google.com/maps/place/?q=place_id:ChIJ_8ztAq32K4gRF44mljnynd0
+Burlington GO Station, Burlington, ON: https://www.google.com/maps/place/?q=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM
+
+Origin & destination JSON return
+University of Waterloo: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ_8ztAq32K4gRF44mljnynd0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJaV_Nz-BhK4gRpYcpDyiCfyM&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
+
+### Modify Dynamic Map Clustering example to show Ontario Parks
+https://chloenev.github.io/geom99lab1/clustering/ontarioparks.html
+
+### Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
+________________________________
+
 ## Welcome and Instructions
 
 For the Google Maps exercises in Week 1 and 2 we are using GitHub as our primary development platform. This repository is a template and you will deploy it into your own GitHub account, modify the provided files and create your own solutions. During the practical lab you will submit URLs to the various resources here. 
@@ -23,33 +47,6 @@ First step is to deploy the template into your own account.
 9. Click `Save` to commit this. 
 
 Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://chloenev.github.io/geom99lab1` where `[username]` is your GitHub account username and the repository name is `geom99lab1`.
-
-## Activities to complete
-
-In this repository you will need to create content in this repository from the following activities:
-
-- [x] Google MyMaps Sharkspotters tutorial.
-https://chloenev.github.io/geom99lab1/mymaps/sharkspotters.html
-
-- [x] Maps - Simple HTML Map Example
-https://chloenev.github.io/geom99lab1/services/simplemap.html
-
-- [x] Routes - Directions API - URL request JSON response
-In my first year of undergrad at UW I didn't have a car, but was felt homesick often so the best way was to take transit to the GO station in Burlington where my parents would pick me up. 
-
-### Origin & destination 
-The University of Waterloo, Waterloo, ON: https://www.google.com/maps/place/?q=place_id:ChIJ_8ztAq32K4gRF44mljnynd0
-Burlington GO Station, Burlington, ON: https://www.google.com/maps/place/?q=place_id:ChIJaV_Nz-BhK4gRpYcpDyiCfyM
-
-### Origin & destination JSON return
-University of Waterloo: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ_8ztAq32K4gRF44mljnynd0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
-Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJaV_Nz-BhK4gRpYcpDyiCfyM&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE 
-
-- [x] Modify Dynamic Map Clustering example to show Ontario Parks
-https://chloenev.github.io/geom99lab1/clustering/ontarioparks.html
-
-- [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
-
 
 ## Due date
 
