@@ -26,6 +26,7 @@ Burlington GO: https://maps.googleapis.com/maps/api/place/details/json?placeid=C
 https://chloenev.github.io/geom99lab1/clustering/ontarioparks.html
 
 ### Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
+https://chloenev.github.io/geom99lab1/story/index.html
 ________________________________
 
 ## Welcome and Instructions
