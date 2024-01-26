@@ -111,16 +111,14 @@ function initMap() {
     });
 	*/
 	const pitstops = [
-    { position: new google.maps.LatLng(43.9706, -79.2443), 
-	  title: "Maya's House"},
-
-    { lat: 46.5333, lng: -84.3499},
-    { lat: 48.3822, lng: -89.2461},
-    { lat: 49.895, lng: -97.1384},
-    { lat: 50.288, lng: -107.7938},
-    { lat: 51.0884, lng: -115.3443},
-    { lat: 49.2464, lng: -122.9945},
-    ];
+		{ position: new google.maps.LatLng(43.9706, -79.2443)},
+		{ position: new google.maps.LatLng(46.5333, -84.3499)},
+		{ position: new google.maps.LatLng(48.3822, -89.2461)},
+		{ position: new google.maps.LatLng(49.895, -97.1384)},
+		{ position: new google.maps.LatLng(50.288, -107.7938)},
+		{ position: new google.maps.LatLng(51.0884, -115.3443)},
+		{ position: new google.maps.LatLng(49.2464, -122.9945)},
+		];
 	
 	pitstops.forEach((pitstops => {
 		new google.maps.Marker({
