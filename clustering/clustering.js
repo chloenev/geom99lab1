@@ -138,3 +138,5 @@ const locations = [
 { lat: 46.622078, lng: -81.455217},
 { lat: 51.104, lng: -94.288},
 ];
+
+initMap();
