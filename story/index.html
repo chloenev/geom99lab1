@@ -7,14 +7,9 @@
 
   <style>
 * {
-	background-color: lightskyblue; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*
-body  {
-}
-*/
 
 p {
 	font-size: 16px;
@@ -25,7 +20,6 @@ p {
 #mapID {
     height: 400px;
     width: 100%;
-
 }
 
 /* -- MenuOption formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
@@ -46,7 +40,7 @@ label.logo {
 	font-weight: bold;
 	line-height: 60px;
 	padding: 0 10px;
-	background: none;
+	background: lightskyblue;
 }
 
 /* -- TableOption formatting begins -- */
@@ -94,7 +88,7 @@ h2 {
    
 function initMap() {
     const map = new google.maps.Map(document.getElementById("mapID"), {
-        zoom: 12,
+        zoom: 4,
         center: {lat: 45.000, lng: -100.000},
     }
     );
