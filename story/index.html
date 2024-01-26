@@ -28,7 +28,7 @@ div.navbar {
 	margin: 0;
 	list-style: none;
 	box-sizing: border-box;
-	background: whitesmoke;
+	background: lightskyblue;
     opacity: 0.8;
 	height: 60px;
 	width: 100%;
@@ -40,7 +40,7 @@ label.logo {
 	font-weight: bold;
 	line-height: 60px;
 	padding: 0 10px;
-	background: lightskyblue;
+	background: none;
 }
 
 /* -- TableOption formatting begins -- */
@@ -89,7 +89,7 @@ h2 {
 function initMap() {
     const map = new google.maps.Map(document.getElementById("mapID"), {
         zoom: 4,
-        center: {lat: 45.000, lng: -100.000},
+        center: {lat: 60.000, lng: -100.000},
     }
     );
 
@@ -111,7 +111,7 @@ function initMap() {
     
 
     const locations = [
-    { lat: 43.9706, lng: 79.2443},
+    { lat: 43.9706, lng: -79.2443},
     { lat: 46.5333, lng: -84.3499},
     { lat: 48.3822, lng: -89.2461},
     { lat: 49.895, lng: -97.1384},
