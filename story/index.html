@@ -125,6 +125,7 @@ function initMap() {
 	pitstops.forEach((pitstops => {
 		new google.maps.Marker({
 			position: pitstops.position,
+			title: pitstops.title,
 			map: map,
 		});
 	}));
